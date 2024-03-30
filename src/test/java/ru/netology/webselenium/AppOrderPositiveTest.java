@@ -19,7 +19,7 @@ public class AppOrderPositiveTest {
     private WebDriver driver;
 
     @BeforeAll
-    static void setUpAll() {
+    public static void setupAll() {
         WebDriverManager.chromedriver().setup();
     }
 
